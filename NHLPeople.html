@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>NHL People</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body id="bdy" class="light-theme">
+    <h1> NHL Player information! </h1>
+
+    <table>
+        <tr>
+            <td>
+                <div id="teams-dropdown">
+                </div>
+            </td>
+            <td>
+                <img id="team-logo" src="https://www-league.nhlstatic.com/images/logos/league-dark/133-flat.svg" class="logo" alt="" />
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+
+                <div id="player-dropdown">
+                </div>
+            </td>
+            <td>
+                <div id="player-image"></div>
+
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <div id="player-info">
+                </div>
+
+            </td>
+            <td>
+                <div id="player-stats"></div>
+            </td>
+
+            <td>
+                <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                <div id="piechart"></div>
+
+            </td>
+        </tr>
+    </table>
+    <script class="NHLPeople" src="NHLpeople.js">
+    </script>
+    <script class="app" src="app.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+
+</html>

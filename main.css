@@ -1,0 +1,145 @@
+body {
+    font-family: monospace;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+.logo {
+    outline: none;
+    height: 200px;
+    width: 300px;
+    padding-left: 150px;
+    padding-bottom: 150px;
+    border: 0;
+}
+
+.logo-sched {
+    outline: none;
+    height: 200px;
+    width: 300px;
+    padding-left: 150px;
+    border: 0;
+}
+
+.roster-info {
+    margin: 0;
+}
+
+.schedule-labels{
+    margin: 0;
+}
+
+.schedule {
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #6d6d72;
+}
+
+.box {
+    border: 15px solid green;
+}
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.select {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.option {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.button {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+.piechart {
+    background: var(--bg);
+}
+
+body {
+    background: var(--bg);
+}
+
+.btn {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus {
+    outline-style: none;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: var(--gray);
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: var(--fontColor);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: var(--fontColor);
+    color: var(--bg);
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: var(--bg);
+}
+
+.footer {
+    background: linear-gradient(to top, rgba(237, 255, 253, 0) 0%, rgba(237, 255, 253, 0) 75%, rgba(237, 255, 253, 1) 100%), #1c1e1f;
+    height: 500px;
+}
+

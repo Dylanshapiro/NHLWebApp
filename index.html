@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>NHL Home Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body id="bdy" class="light-theme">
+
+    <h1> NHL Stats! </h1>
+    <p>
+        Choose a Team from the dropdown below to view their Stats!
+    </p>
+
+    <select class="select" id="locality-dropdown" name="locality"></select>
+    <button class="button" type="button" onclick="getTeam();getLogo();">Submit</button>
+
+    <h1 id="team-name"></h1>
+    <table>
+        <tr>
+            <td>
+                <h4 id="team-venue"></h4>
+                <h4 id="team-wins"></h4>
+                <h4 id="team-losses"></h4>
+                <h4 id="team-ot-losses"></h4>
+                <h4 id="games-played"></h4>
+                <h4 id="power-plays-goals"></h4>
+                <h4 id="power-play-goals-against"></h4>
+                <h4 id="power-play-percent"></h4>
+                <h2 id="team-roster"></h2>
+            </td>
+            <td>
+                <img id="team-logo" src="https://www-league.nhlstatic.com/images/logos/league-dark/133-flat.svg" class="logo" alt="Team Logo will be shown here"/>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3 id="team-roster-info-1" class="roster-info"></h3>
+            </td>
+            <td>
+                <h3 id="team-roster-info-2" class="roster-info"></h3>
+            </td>
+            <td>
+                <h3 id="team-roster-info-3" class="roster-info"></h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p id="team-player" class="roster"></p>
+            </td>
+            <td>
+                <p id="player-num" class="roster"></p>
+            </td>
+            <td>
+                <p id="player-position" class="roster"></p>
+            </td>
+        </tr>
+    </table>
+
+
+    <script class="hockey" src="Hockey.js"></script>
+    <script class="app" src="app.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+
+</html>
